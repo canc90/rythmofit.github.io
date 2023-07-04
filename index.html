@@ -16,58 +16,58 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/aos.css">
 
-   
+
     <link rel="stylesheet" href="css/tooplate-gymso-style.css">
-   
+
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-   
+
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
 
             <a class="navbar-brand" href="index.html">RythmoFit Club</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link smoothScroll">Início</a>
-                        </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link smoothScroll">Início</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link smoothScroll">Sobre Nós</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">Sobre Nós</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#class" class="nav-link smoothScroll">Aulas</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#class" class="nav-link smoothScroll">Aulas</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#schedule" class="nav-link smoothScroll">Horários</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#schedule" class="nav-link smoothScroll">Horários</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link smoothScroll">Contato</a>
-                        </li>
-                    </ul>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contato</a>
+                    </li>
+                </ul>
 
-                    <ul class="social-icon ml-lg-3">
-                        <li><a href="https://www.facebook.com/rythmofit" class="fa fa-facebook"></a></li>
-                        <!--<li><a href="#" class="fa fa-twitter"></a></li>-->
-                        <li><a href="https://www.instagram.com/rythmofit/" class="fa fa-instagram"></a></li>
-                    </ul>
-                </div>
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://www.facebook.com/rythmofit" class="fa fa-facebook"></a></li>
+                    <!--<li><a href="#" class="fa fa-twitter"></a></li>-->
+                    <li><a href="https://www.instagram.com/rythmofit/" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
 
         </div>
     </nav>
 
 
-   
+
     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
 
         <div class="bg-overlay"></div>
@@ -139,7 +139,7 @@
     </section>
 
 
-   
+
     <section class="about section" id="about">
         <div class="container">
             <div class="row">
@@ -199,7 +199,7 @@
     </section>
 
 
-   
+
     <section class="class section" id="class">
         <div class="container">
             <div class="row">
@@ -266,7 +266,7 @@
     </section>
 
 
-   
+
     <section class="schedule section" id="schedule">
         <div class="container">
             <div class="row">
@@ -379,7 +379,7 @@
     </section>
 
 
-   
+
     <section class="contact section" id="contact">
         <div class="container">
             <div class="row">
@@ -388,13 +388,16 @@
                     <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Fique a vontade para perguntar
                         qualquer coisa</h2>
 
-                    <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400"
-                        role="form">
-                        <input type="text" class="form-control" name="cf-name" placeholder="Nome">
+                    <form action="https://api.sheetmonkey.io/form/hyQN729rErhu3vTY2BMVpz" method="post"
+                        class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                        <input type="text" class="form-control" name="Nome:" placeholder="Nome">
 
-                        <input type="email" class="form-control" name="cf-email" placeholder="Email">
+                        <input type="email" class="form-control" name="Email:" placeholder="Email">
 
-                        <textarea class="form-control" rows="5" name="cf-message" placeholder="Mensagem"></textarea>
+                        <input type="tel" class="form-control" name="Telefone: placeholder=" Contato"
+                            pattern="[0-9]{2}[0-9]{5}[0-9]{4}" required />
+
+                        <textarea class="form-control" rows="5" name="Mensagem:" placeholder="Mensagem"></textarea>
 
                         <button type="submit" class="form-control" id="submit-button" name="submit">Enviar
                             Mensagem</button>
@@ -407,7 +410,7 @@
 
                     <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Av. do Coqueiral, n
                         900 - Taperapuan, Porto Seguro - BA</p>
-                       <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+                    <div class="google-map" data-aos="fade-up" data-aos-delay="900">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956.9146479436241!2d-39.04497459084231!3d-16.39134504631684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73694676e0bf841%3A0x49264c46faeec5f7!2sAcademia%20RythmoFit Clubub!5e0!3m2!1spt-BR!2sbr!4v1688344545147!5m2!1spt-BR!2sbr"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -421,7 +424,7 @@
     </section>
 
 
-   
+
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -447,7 +450,7 @@
         </div>
     </footer>
 
-   
+
     <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -463,24 +466,23 @@
                 </div>
 
                 <div class="modal-body">
-                    <form class="membership-form webform" role="form">
-                        <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+                    <form method="post" action="https://api.sheetmonkey.io/form/hyQN729rErhu3vTY2BMVpz"
+                        class="membership-form webform" role="form">
+                        <input type="text" class="form-control" name="Nome:" placeholder="Nome" />
 
-                        <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+                        <input type="email" class="form-control" name="Email:" placeholder="E-mail" />
 
-                        <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <input type="tel" class="form-control" name="Telefone:" placeholder="Telefone"
+                            pattern="[0-9]{2}[0-9]{5}[0-9]{4}" required />
 
-                        <textarea class="form-control" rows="3" name="cf-message"
-                            placeholder="Additional Message"></textarea>
+                        <textarea class="form-control" rows="3" name="Mensagem:" placeholder="Mensagem"></textarea>
 
-                        <button type="submit" class="form-control" id="submit-button" name="submit">Submit
-                            Button</button>
+                        <button type="submit" class="form-control" id="submit-button" name="submit">Enviar</button>
 
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="signup-agree">
-                            <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the
-                                <a href="#">Terms &amp;Conditions</a>
+                            <input type="checkbox" class="custom-control-input" id="signup-agree" />
+                            <label class="custom-control-label text-small text-muted" for="signup-agree">Concordo com os
+                                <a href="#">Termos &amp; Condições</a>
                             </label>
                         </div>
                     </form>
@@ -492,7 +494,7 @@
         </div>
     </div>
 
-   
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
